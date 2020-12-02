@@ -10,31 +10,38 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add my-react-project">
-      <change afterPath="$PROJECT_DIR$/my-react-project/login" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/setupTests.js" afterDir="false" />
+    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add my-react-study">
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Context/Hooks/useInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Context/UserStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/ModifyMyInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/MyPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/NotFound.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/SignUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Router/AppRouter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/CommonStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/LoginStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/SignUpStyled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-study/src/react12/Redux/Component/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,9 +54,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-react-project/redux-login/src" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-react-study/src/react12/Redux/Component" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-react-project/redux-login/src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -59,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606747723470</updated>
-      <workItem from="1606747726600" duration="416000" />
+      <workItem from="1606747726600" duration="8907000" />
     </task>
     <task id="LOCAL-00001" summary="add my-react-project">
       <created>1606747796634</created>
@@ -68,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606747796634</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add my-react-study">
+      <created>1606748176531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606748176531</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add my-react-study">
+      <created>1606748259877</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606748259877</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,12 +118,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add my-react-project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add my-react-project" />
+    <MESSAGE value="add my-react-study" />
+    <option name="LAST_COMMIT_MESSAGE" value="add my-react-study" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1606747800105">
+    <state x="100" y="123" width="1080" height="526" key="DiffContextDialog" timestamp="1606748822525">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1606747800104" />
+    <state x="100" y="123" width="1080" height="526" key="DiffContextDialog/0.23.1280.726@0.23.1280.726" timestamp="1606748822525" />
+    <state x="149" y="25" key="SettingsEditor" timestamp="1606932286444">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1606932286444" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1606748309101">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1606748309101" />
   </component>
 </project>
