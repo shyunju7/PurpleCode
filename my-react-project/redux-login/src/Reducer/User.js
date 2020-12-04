@@ -21,7 +21,8 @@ export const login = (userId) => {
     },
   };
 };
-export const logout = (userId) => {
+
+export const logout = () => {
   return {
     type: LOGOUT,
     payload: {
@@ -41,7 +42,12 @@ export const deleteUser = (userId) => {
 
 // 초기 설정
 const initState = {
-  users: [{ userId: "admin", userPw: "1111", isLogin: false }],
+  loginUser: null,
+  isLogin: false,
+  users: [
+    { userId: "admin", userPw: "1111" },
+    { userId: "1", userPw: "1" },
+  ],
 };
 
 // 리듀서
@@ -53,22 +59,22 @@ export function userReducer(state = initState, { type, payload }) {
         users: state.users.concat({
           userId: payload.userId,
           userPw: payload.userPw,
-          isLogin: false,
         }),
+        isLogin: false,
       };
     case LOGIN:
       return {
         ...state,
-        users: state.users.map((user) =>
-          user.userId === payload.userId ? { ...user, isLogin: true } : user
+        isLogin: state.users.map((user) =>
+          user.userId === payload.userId ? true : false
         ),
+        loginUser: payload.userId,
       };
     case LOGOUT:
       return {
         ...state,
-        users: state.users.map((user) =>
-          user.userId === payload.userId ? { ...user, isLogin: false } : user
-        ),
+        isLogin: false,
+        loginUser: null,
       };
     case MODIFY_USERPW:
       return {
@@ -83,6 +89,8 @@ export function userReducer(state = initState, { type, payload }) {
       return {
         ...state,
         users: state.users.filter((user) => user.userId !== payload.userId),
+        isLogin: false,
+        loginUser: null,
       };
 
     default:

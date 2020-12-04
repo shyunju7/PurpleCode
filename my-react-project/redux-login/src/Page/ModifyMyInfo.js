@@ -1,28 +1,29 @@
 import React, { useCallback, useState } from "react";
-import {Div, Button, Text} from "../Styled/CommonStyled";
+import { Div, Button, Text } from "../Styled/CommonStyled";
 import { Link } from "react-router-dom";
-import { UserDispatch, UserState } from "../Context/UserStore";
+import { useSelector, useDispatch } from "react-redux";
 
 const ModifyMyInfo = ({ history }) => {
-  const { users, user } = UserState();
-  const dispatch = UserDispatch();
+  const users = useSelector((state) => state.users);
+  const userId = useSelector((state) => state.loginUser);
 
-  const findUser = users.find((u) => u.userId === user.userId);
+  const dispatch = useDispatch();
+
+  const findUser = users.find((u) => u.userId === userId);
   const [userPw, setUserPw] = useState(findUser.userPw);
 
   const onChange = useCallback(
     (e) => {
       setUserPw(e.target.value);
+      console.log(userId, ",", userPw);
     },
     [userPw]
   );
   const modifyUserInfo = () => {
-    console.log(user.userId);
-    console.log(userPw);
     dispatch({
-      type: "UPDATE_USER_PW",
+      type: "MODIFY_USERPW",
       users: {
-        userId: user.userId,
+        userId: userId,
         userPw: userPw,
       },
     });
@@ -34,7 +35,7 @@ const ModifyMyInfo = ({ history }) => {
   return (
     <Div>
       <h1>MY PAGE</h1>
-      <Text name="userId">ID: {user.userId}</Text>
+      <Text name="userId">ID: {userId}</Text>
       <br />
       <Text>PASSWORD: </Text>
       <input name="userPw" value={userPw} onChange={onChange}></input>

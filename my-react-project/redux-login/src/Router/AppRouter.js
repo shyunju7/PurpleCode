@@ -13,9 +13,10 @@ import SignUp from "../Page/SignUp";
 import ModifyMyInfo from "../Page/ModifyMyInfo";
 import {useSelector} from "react-redux";
 const AppRouter = () => {
-  //???
- // const user = useSelector(state => state.users.isLogin);
+
+  const user = useSelector(state => state.isLogin);
  // console.log(user);
+
   if (user) {
     return (
       <Router>

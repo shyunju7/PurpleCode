@@ -1,6 +1,5 @@
 import React, { useCallback, useRef, useState, useEffect } from "react";
 import { Div } from "../Styled/CommonStyled";
-import { UserDispatch, UserState } from "../Context/UserStore";
 import {
   ErrorMsg,
   Input,

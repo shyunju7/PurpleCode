@@ -5,18 +5,18 @@ import {useSelector, useDispatch} from "react-redux";
 import {logout} from "../Reducer/User";
 
 const Main = () => {
-  const user = useSelector(state => state.users.user);
+  const userId = useSelector(state => state.loginUser);
   const dispatch = useDispatch();
 
   const onClickLogout = () => {
-    dispatch(logout(user.userId));
+    dispatch(logout());
   };
 
 
   return (
     <Div>
         <h1>MAIN</h1>
-        <Text> {user.userId}님, 환영합니다.</Text>
+        <Text> {userId}님, 환영합니다.</Text>
         <br />
         <br />
         <Button onClick={onClickLogout}> 로그아웃 </Button>
