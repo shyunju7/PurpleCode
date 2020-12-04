@@ -10,26 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add my-react-study">
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Context/Hooks/useInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Context/UserStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/ModifyMyInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/MyPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/NotFound.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/SignUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Router/AppRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/CommonStyled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/LoginStyled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/SignUpStyled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-react-study/src/react12/Redux/Component/Counter.js" afterDir="false" />
+    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add redux-login/reducer">
+      <change afterPath="$PROJECT_DIR$/my-react-study/src/react12/Redux/Component/CounterContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Router/AppRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-study/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-study/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-study/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-study/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-study/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-study/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-study/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-study/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-study/src/react12/Redux/Component/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-study/src/react12/Redux/Reducer/Counter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606747723470</updated>
-      <workItem from="1606747726600" duration="8907000" />
+      <workItem from="1606747726600" duration="16525000" />
     </task>
     <task id="LOCAL-00001" summary="add my-react-project">
       <created>1606747796634</created>
@@ -99,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606748259877</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add redux-login/reducer">
+      <created>1606937603948</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606937603948</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,20 +116,41 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add my-react-project" />
     <MESSAGE value="add my-react-study" />
-    <option name="LAST_COMMIT_MESSAGE" value="add my-react-study" />
+    <MESSAGE value="add redux-login/reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add redux-login/reducer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1080" height="526" key="DiffContextDialog" timestamp="1606748822525">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="100" y="123" width="1080" height="526" key="DiffContextDialog/0.23.1280.726@0.23.1280.726" timestamp="1606748822525" />
+    <state width="1238" height="181" key="GridCell.Tab.0.bottom" timestamp="1607068495978">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1238" height="181" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1607068495978" />
+    <state width="1238" height="181" key="GridCell.Tab.0.center" timestamp="1607068495977">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1238" height="181" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1607068495977" />
+    <state width="1238" height="181" key="GridCell.Tab.0.left" timestamp="1607068495976">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1238" height="181" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1607068495976" />
+    <state width="1238" height="181" key="GridCell.Tab.0.right" timestamp="1607068495977">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state width="1238" height="181" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1607068495977" />
     <state x="149" y="25" key="SettingsEditor" timestamp="1606932286444">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1606932286444" />
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1606748309101">
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1606937607648">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1606748309101" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1606937607648" />
+    <state x="347" y="112" width="586" height="548" key="find.popup" timestamp="1606937717012">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="347" y="112" width="586" height="548" key="find.popup/0.23.1280.726@0.23.1280.726" timestamp="1606937717012" />
   </component>
 </project>

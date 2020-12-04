@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from "react";
 import { Div, Button } from "../Styled/CommonStyled";
 import { Link } from "react-router-dom";
-import { UserDispatch, UserState } from "../Context/UserStore";
 import { Input, Label } from "../Styled/LoginStyled";
 import {useDispatch, useSelector} from "react-redux";
 import {login} from "../Reducer/User";
