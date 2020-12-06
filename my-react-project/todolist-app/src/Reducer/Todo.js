@@ -1,11 +1,9 @@
-
 const TODO_INSERT = "TODO/INSERT";
 const TODO_REMOVE = "TODO/REMOVE";
 const TODO_UPDATE = "TODO/UPDATE";
 const TODO_TOGGLE = "TODO/TOGGLE";
 
 export const todoInsert = (id, text) => {
-
   return {
     type: TODO_INSERT,
     payload: {
@@ -21,8 +19,18 @@ export const todoRemove = (id) => {
     payload: { id: id },
   };
 };
-const todoUpdate = (id, text) => {};
-const todoToggle = (id) => {};
+export const todoUpdate = (id, text) => {
+  return {
+    type: TODO_UPDATE,
+    payload: { id: id, text: text },
+  };
+};
+export const todoToggle = (id) => {
+  return {
+    type: TODO_TOGGLE,
+    payload: { id: id },
+  };
+};
 
 const initState = {
   todos: [
@@ -35,7 +43,6 @@ const initState = {
 };
 
 export default function todoReducer(state = initState, { type, payload }) {
-  let id = 1;
   switch (type) {
     case TODO_INSERT:
       return {
@@ -52,9 +59,21 @@ export default function todoReducer(state = initState, { type, payload }) {
         todos: state.todos.filter((todo) => todo.id !== payload.id),
       };
     case TODO_UPDATE:
-      return {};
+      return {
+        ...state,
+        todos: state.todos.map((todo) =>
+          todo.id === payload.id ? { ...todo, text: payload.text } : todo
+        ),
+      };
     case TODO_TOGGLE:
-      return {};
+      return {
+        ...state,
+        todos: state.todos.map((todo) =>
+          todo.id === payload.id
+            ? { ...todo, isCompleted: !todo.isCompleted }
+            : todo
+        ),
+      };
     default:
       return { ...state };
   }

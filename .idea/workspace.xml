@@ -10,15 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="modify /Reducer">
+    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add /todolist/TodoList &amp; TodoItem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Reducer/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Reducer/Todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/styled-todoInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/styled-todoInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/todoItem-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/todoItem-styled.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606747723470</updated>
-      <workItem from="1606747726600" duration="45028000" />
+      <workItem from="1606747726600" duration="49454000" />
     </task>
     <task id="LOCAL-00001" summary="add my-react-project">
       <created>1606747796634</created>
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607263733122</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add /todolist/TodoList &amp; TodoItem">
+      <created>1607270530767</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607270530767</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +194,8 @@
     <MESSAGE value="add /todolist-app" />
     <MESSAGE value="add /redux-login" />
     <MESSAGE value="modify /Reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify /Reducer" />
+    <MESSAGE value="add /todolist/TodoList &amp; TodoItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="add /todolist/TodoList &amp; TodoItem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1080" height="526" key="DiffContextDialog" timestamp="1606748822525">
@@ -216,10 +222,10 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1607250761970" />
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607263737632">
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607270533115">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607263737632" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607270533115" />
     <state x="347" y="112" width="586" height="548" key="find.popup" timestamp="1606937717012">
       <screen x="0" y="23" width="1280" height="726" />
     </state>

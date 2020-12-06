@@ -1,22 +1,39 @@
-import React from 'react';
-import {TextBox, TodoItemBox} from "../Styled/todoItem-styled";
-import {useDispatch} from "react-redux";
-import {todoRemove} from "../Reducer/Todo";
+import React from "react";
+import {
+  Button,
+  CheckBox,
+  TextBox,
+  TodoItemBox,
+} from "../Styled/todoItem-styled";
+import { useDispatch } from "react-redux";
+import { todoRemove, todoToggle } from "../Reducer/Todo";
+import { FaRegSquare, FaRegCheckSquare } from "react-icons/fa";
+import { TiDeleteOutline } from "react-icons/ti";
+import { BiPencil } from "react-icons/bi";
+const TodoItem = ({ todo }) => {
+  const { id, text, isCompleted } = todo;
+  const dispatch = useDispatch();
 
-const TodoItem = ({todo}) => {
+  return (
+    <TodoItemBox>
+      <CheckBox onClick={() => dispatch(todoToggle(id))}>
+        {isCompleted ? (
+          <FaRegCheckSquare size="25px" color="#84a98c" />
+        ) : (
+          <FaRegSquare size="25px" />
+        )}
+      </CheckBox>
+      <TextBox checked={isCompleted}> {text} </TextBox>
 
-    const {id, text, isCompleted} = todo;
-    const dispatch = useDispatch();
+      <Button>
+        <BiPencil size="25px" color="#a5a58d" />
+      </Button>
 
-    return(
-
-        <TodoItemBox>
-            <input type='checkbox' />
-            <TextBox> {text} </TextBox>
-            <button onClick={() => dispatch(todoRemove(id))}> 지우기 </button>
-        </TodoItemBox>
-    );
-
+      <Button onClick={() => dispatch(todoRemove(id))}>
+        <TiDeleteOutline size="30px" color="#e56b6f" />
+      </Button>
+    </TodoItemBox>
+  );
 };
 
 export default TodoItem;
