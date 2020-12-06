@@ -10,11 +10,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="modify /redux-login">
-      <change afterPath="$PROJECT_DIR$/my-typescript-study/src/typescript_11/typescript_01.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-typescript-study/src/typescript_11/typescript_02.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-typescript-study/src/typescript_12/typescript_01.ts" afterDir="false" />
+    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add /my-typescript-study">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/redux-login/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Reducer/Todo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/common-styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/styled-todoInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/todoItem-styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-react-study/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-typescript-study/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-typescript-study/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-typescript-study/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-typescript-study/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -65,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606747723470</updated>
-      <workItem from="1606747726600" duration="27622000" />
+      <workItem from="1606747726600" duration="36261000" />
     </task>
     <task id="LOCAL-00001" summary="add my-react-project">
       <created>1606747796634</created>
@@ -116,7 +145,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607101243725</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add /my-typescript-study">
+      <created>1607246167856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607246167856</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add /my-typescript-study">
+      <created>1607246227113</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607246227113</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +182,8 @@
     <MESSAGE value="add redux-login/reducer" />
     <MESSAGE value="add Counter" />
     <MESSAGE value="modify /redux-login" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify /redux-login" />
+    <MESSAGE value="add /my-typescript-study" />
+    <option name="LAST_COMMIT_MESSAGE" value="add /my-typescript-study" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1080" height="526" key="DiffContextDialog" timestamp="1606748822525">
@@ -162,14 +206,14 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state width="1238" height="181" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1607068495977" />
-    <state x="149" y="25" key="SettingsEditor" timestamp="1606932286444">
+    <state x="149" y="25" key="SettingsEditor" timestamp="1607250761970">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1606932286444" />
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607101246124">
+    <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1607250761970" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607246229101">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607101246124" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607246229101" />
     <state x="347" y="112" width="586" height="548" key="find.popup" timestamp="1606937717012">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
