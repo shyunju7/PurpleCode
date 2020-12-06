@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
+    text-align : center;
   border: none;
   border-radius: 4px;
   margin: 5% 10%;
   padding: 10%;
   font-weight: bold;
   color: 586da2;
-  
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
   background: ${(props) => props.color || "#F9FAFE"};
 `;

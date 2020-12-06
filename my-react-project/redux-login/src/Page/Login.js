@@ -2,14 +2,12 @@ import React, { useCallback, useState } from "react";
 import { Div, Button } from "../Styled/CommonStyled";
 import { Link } from "react-router-dom";
 import { Input, Label } from "../Styled/LoginStyled";
-import {useDispatch, useSelector} from "react-redux";
-import {login} from "../Reducer/Login";
-
+import { useDispatch, useSelector } from "react-redux";
+import { login } from "../Reducer/Login";
 
 const Login = () => {
-  const users  = useSelector(state => state.users);
+  const users = useSelector((state) => state.userReducer.users);
   const dispatch = useDispatch();
-
 
   const [userId, setUserId] = useState("");
   const [userPw, setUserPw] = useState("");
@@ -57,12 +55,11 @@ const Login = () => {
         onReset();
         return;
       } else if (findUser.userPw !== userPw) {
-        alert("입력하신 비밀번호가 일치하지 않습니다.!");
+        alert("입력하신 비밀번호가 일치하지 않습니다.");
         setUserPw("");
       } else if (findUser.userPw === userPw) {
         alert("로그인 성공!");
         dispatch(login(userId));
-
       }
     }
   };

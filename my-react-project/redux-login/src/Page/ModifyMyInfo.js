@@ -2,10 +2,11 @@ import React, { useCallback, useState } from "react";
 import { Div, Button, Text } from "../Styled/CommonStyled";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
+import { modifyPw } from "../Reducer/User";
 
 const ModifyMyInfo = ({ history }) => {
-  const users = useSelector((state) => state.users);
-  const userId = useSelector((state) => state.loginUser);
+  const users = useSelector((state) => state.userReducer.users);
+  const userId = useSelector((state) => state.loginReducer.loginUser);
 
   const dispatch = useDispatch();
 
@@ -15,18 +16,11 @@ const ModifyMyInfo = ({ history }) => {
   const onChange = useCallback(
     (e) => {
       setUserPw(e.target.value);
-      console.log(userId, ",", userPw);
     },
     [userPw]
   );
   const modifyUserInfo = () => {
-    dispatch({
-      type: "MODIFY_USERPW",
-      users: {
-        userId: userId,
-        userPw: userPw,
-      },
-    });
+    dispatch(modifyPw(userId, userPw));
 
     alert("정상적으로 수정되었습니다.");
     history.replace("/mypage");

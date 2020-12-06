@@ -9,6 +9,7 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
+    
     margin-bottom : 10px;
     height : 25px;
     width : 200px;

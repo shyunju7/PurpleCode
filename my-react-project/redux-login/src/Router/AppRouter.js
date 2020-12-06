@@ -11,13 +11,11 @@ import NotFound from "../Page/NotFound";
 import Login from "../Page/Login";
 import SignUp from "../Page/SignUp";
 import ModifyMyInfo from "../Page/ModifyMyInfo";
-import {useSelector} from "react-redux";
+import { useSelector } from "react-redux";
 const AppRouter = () => {
+  const isLogin = useSelector((state) => state.loginReducer.isLogin);
 
-  const user = useSelector(state => state.isLogin);
- // console.log(user);
-
-  if (user) {
+  if (isLogin) {
     return (
       <Router>
         <Switch>

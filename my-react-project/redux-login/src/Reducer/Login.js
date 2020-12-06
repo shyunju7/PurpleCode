@@ -4,6 +4,7 @@ const LOGOUT = "LOGOUT";
 
 // 액션 생성 함수
 export const login = (userId) => {
+  console.log("login! : ", userId);
   return {
     type: LOGIN,
     payload: {
@@ -25,21 +26,15 @@ export const logout = () => {
 const initState = {
   loginUser: null,
   isLogin: false,
-  users: [
-    { userId: "admin", userPw: "1111" },
-    { userId: "1", userPw: "1" },
-  ]
 };
 
 // 리듀서
-export default function loginRegister(state = initState, { type, payload }) {
+export default function loginReducer(state = initState, { type, payload }) {
   switch (type) {
     case LOGIN:
       return {
         ...state,
-        isLogin: state.users.map((user) =>
-          user.userId === payload.userId ? true : false
-        ),
+        isLogin: true,
         loginUser: payload.userId,
       };
     case LOGOUT:

@@ -5,8 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { deleteUser } from "../Reducer/User";
 
 const MyPage = ({ history }) => {
-  const users = useSelector((state) => state.users);
-  const userId = useSelector((state) => state.loginUser);
+  const users = useSelector((state) => state.userReducer.users);
+  const userId = useSelector((state) => state.loginReducer.loginUser);
   const findUser = users.find((u) => u.userId === userId);
 
   const dispatch = useDispatch();
@@ -30,7 +30,7 @@ const MyPage = ({ history }) => {
       <br />
       <Link to="/modifymyinfo">
         <Button> 비밀번호 변경하기 </Button>
-        <Button onClick={unsubscribe}> 회원 탈퇴 </Button>
+        <Button onClick={unsubscribe}> 회원 탈퇴하기 </Button>
       </Link>
     </Div>
   );

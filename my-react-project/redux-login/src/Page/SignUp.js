@@ -20,7 +20,7 @@ const SignUp = ({ history }) => {
   const nextId = useRef(2);
 
   const dispatch = useDispatch();
-  const users = useSelector((state) => state.users);
+  const users = useSelector((state) => state.userReducer.users);
 
   const checkSpace = (value) => {
     const space = /\s/;
