@@ -10,24 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add /todolist-app">
+    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add /redux-login">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/ModifyMyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/ModifyMyInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/MyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/MyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Router/AppRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Router/AppRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/CommonStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/CommonStyled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/LoginStyled.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Styled/LoginStyled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606747723470</updated>
-      <workItem from="1606747726600" duration="38741000" />
+      <workItem from="1606747726600" duration="39423000" />
     </task>
     <task id="LOCAL-00001" summary="add my-react-project">
       <created>1606747796634</created>
@@ -150,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607260043662</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add /redux-login">
+      <created>1607262677004</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607262677004</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +166,8 @@
     <MESSAGE value="modify /redux-login" />
     <MESSAGE value="add /my-typescript-study" />
     <MESSAGE value="add /todolist-app" />
-    <option name="LAST_COMMIT_MESSAGE" value="add /todolist-app" />
+    <MESSAGE value="add /redux-login" />
+    <option name="LAST_COMMIT_MESSAGE" value="add /redux-login" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1080" height="526" key="DiffContextDialog" timestamp="1606748822525">
@@ -202,10 +194,10 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1607250761970" />
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607260045519">
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607262679515">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607260045519" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607262679515" />
     <state x="347" y="112" width="586" height="548" key="find.popup" timestamp="1606937717012">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
