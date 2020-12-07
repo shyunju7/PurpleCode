@@ -5,7 +5,6 @@ export const TodoInputBox = styled.div`
   display: flex;
   margin: 0 1rem;
   padding: 1rem;
-  
 `;
 
 export const Input = styled.input`

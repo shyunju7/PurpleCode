@@ -6,7 +6,7 @@ import {
   TodoItemBox,
 } from "../Styled/todoItem-styled";
 import { useDispatch } from "react-redux";
-import { todoRemove, todoToggle } from "../Reducer/Todo";
+import { todoRemove, todoToggle, todoUpdate } from "../Reducer/Todo";
 import { FaRegSquare, FaRegCheckSquare } from "react-icons/fa";
 import { TiDeleteOutline } from "react-icons/ti";
 import { BiPencil } from "react-icons/bi";
@@ -23,8 +23,7 @@ const TodoItem = ({ todo }) => {
           <FaRegSquare size="25px" />
         )}
       </CheckBox>
-      <TextBox checked={isCompleted}> {text} </TextBox>
-
+      <TextBox id="text" readOnly={true} value={text} checked={isCompleted} />
       <Button>
         <BiPencil size="25px" color="#a5a58d" />
       </Button>

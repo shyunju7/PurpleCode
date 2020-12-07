@@ -7,11 +7,10 @@ import { createStore } from "redux";
 import todoReducer from "./Reducer/Todo";
 
 const store = createStore(todoReducer);
-console.log(store.getState());
 ReactDOM.render(
-    <Provider store={store}>
+  <Provider store={store}>
     <App />
-    </Provider>,
-  document.getElementById('root')
+  </Provider>,
+  document.getElementById("root")
 );
 

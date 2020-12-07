@@ -10,7 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="modify /redux-login" />
+    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="modify /redux-login">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/styled-todoInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/styled-todoInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/todoItem-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/todoItem-styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +32,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606747723470</updated>
       <workItem from="1606747726600" duration="49592000" />
-      <workItem from="1607329478232" duration="622000" />
+      <workItem from="1607329478232" duration="5372000" />
     </task>
     <task id="LOCAL-00001" summary="add my-react-project">
       <created>1606747796634</created>
@@ -176,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607330062484</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="modify /redux-login">
+      <created>1607330171617</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607330171617</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,10 +252,14 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1607250761970" />
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607275248507">
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607330692256">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607275248507" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607330692256" />
+    <state x="453" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607330670675">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="453" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.726@0.23.1280.726" timestamp="1607330670675" />
     <state x="347" y="112" width="586" height="548" key="find.popup" timestamp="1606937717012">
       <screen x="0" y="23" width="1280" height="726" />
     </state>

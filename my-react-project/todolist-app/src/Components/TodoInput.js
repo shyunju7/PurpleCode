@@ -16,6 +16,12 @@ const TodoInput = () => {
     setTodoInput("");
   };
 
+  const onKeyPress = (e) => {
+    if (e.key === "Enter") {
+      addTodo();
+    }
+  };
+
   const addTodo = () => {
     if (todoInput.length === 0) {
       alert("내용을 입력해주세요!");
@@ -31,6 +37,7 @@ const TodoInput = () => {
     <TodoInputBox>
       <Input
         onChange={onChangeInput}
+        onKeyPress={onKeyPress}
         value={todoInput}
         placeholder="할 일을 입력하세요!"
       />
