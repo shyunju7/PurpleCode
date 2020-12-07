@@ -10,19 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="modify /todolist/TodoItem">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/ModifyMyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/ModifyMyInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/MyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/MyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/SignUp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/reducer/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/reducer/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/reducer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="modify /redux-login" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606747723470</updated>
       <workItem from="1606747726600" duration="49592000" />
-      <workItem from="1607329478232" duration="312000" />
+      <workItem from="1607329478232" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="add my-react-project">
       <created>1606747796634</created>
@@ -181,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607275244529</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="modify /redux-login">
+      <created>1607330062484</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607330062484</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,14 +199,14 @@
     <MESSAGE value="add my-react-study" />
     <MESSAGE value="add redux-login/reducer" />
     <MESSAGE value="add Counter" />
-    <MESSAGE value="modify /redux-login" />
     <MESSAGE value="add /my-typescript-study" />
     <MESSAGE value="add /todolist-app" />
     <MESSAGE value="add /redux-login" />
     <MESSAGE value="modify /Reducer" />
     <MESSAGE value="add /todolist/TodoList &amp; TodoItem" />
     <MESSAGE value="modify /todolist/TodoItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify /todolist/TodoItem" />
+    <MESSAGE value="modify /redux-login" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify /redux-login" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1080" height="526" key="DiffContextDialog" timestamp="1606748822525">
