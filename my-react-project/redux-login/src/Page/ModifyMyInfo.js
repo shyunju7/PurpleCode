@@ -2,7 +2,7 @@ import React, { useCallback, useState } from "react";
 import { Div, Button, Text } from "../Styled/CommonStyled";
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { modifyPw } from "../Reducer/User";
+import { modifyPw } from "../reducer/User";
 
 const ModifyMyInfo = ({ history }) => {
   const users = useSelector((state) => state.userReducer.users);

@@ -10,13 +10,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add /todolist/TodoList &amp; TodoItem">
+    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="modify /todolist/TodoItem">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Reducer/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Reducer/Todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/styled-todoInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/styled-todoInput.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/todoItem-styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Styled/todoItem-styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/ModifyMyInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/ModifyMyInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/MyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/MyPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/Page/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/reducer/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/reducer/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/Reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/reducer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/redux-login/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l0xGDDg9AXoCLlHBrHZgKWf6ca" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,7 +73,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606747723470</updated>
-      <workItem from="1606747726600" duration="49454000" />
+      <workItem from="1606747726600" duration="49592000" />
+      <workItem from="1607329478232" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="add my-react-project">
       <created>1606747796634</created>
@@ -167,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607270530767</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="modify /todolist/TodoItem">
+      <created>1607275244529</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607275244529</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +197,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add my-react-project" />
@@ -195,37 +210,38 @@
     <MESSAGE value="add /redux-login" />
     <MESSAGE value="modify /Reducer" />
     <MESSAGE value="add /todolist/TodoList &amp; TodoItem" />
-    <option name="LAST_COMMIT_MESSAGE" value="add /todolist/TodoList &amp; TodoItem" />
+    <MESSAGE value="modify /todolist/TodoItem" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify /todolist/TodoItem" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1080" height="526" key="DiffContextDialog" timestamp="1606748822525">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="100" y="123" width="1080" height="526" key="DiffContextDialog/0.23.1280.726@0.23.1280.726" timestamp="1606748822525" />
-    <state width="1238" height="181" key="GridCell.Tab.0.bottom" timestamp="1607068495978">
+    <state width="1238" height="181" key="GridCell.Tab.0.bottom" timestamp="1607275385504">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1607068495978" />
-    <state width="1238" height="181" key="GridCell.Tab.0.center" timestamp="1607068495977">
+    <state width="1238" height="181" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1607275385504" />
+    <state width="1238" height="181" key="GridCell.Tab.0.center" timestamp="1607275385503">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1607068495977" />
-    <state width="1238" height="181" key="GridCell.Tab.0.left" timestamp="1607068495976">
+    <state width="1238" height="181" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1607275385503" />
+    <state width="1238" height="181" key="GridCell.Tab.0.left" timestamp="1607275385501">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1607068495976" />
-    <state width="1238" height="181" key="GridCell.Tab.0.right" timestamp="1607068495977">
+    <state width="1238" height="181" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1607275385501" />
+    <state width="1238" height="181" key="GridCell.Tab.0.right" timestamp="1607275385503">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state width="1238" height="181" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1607068495977" />
+    <state width="1238" height="181" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1607275385503" />
     <state x="149" y="25" key="SettingsEditor" timestamp="1607250761970">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1607250761970" />
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607270533115">
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607275248507">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607270533115" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607275248507" />
     <state x="347" y="112" width="586" height="548" key="find.popup" timestamp="1606937717012">
       <screen x="0" y="23" width="1280" height="726" />
     </state>

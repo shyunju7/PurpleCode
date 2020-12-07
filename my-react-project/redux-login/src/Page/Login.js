@@ -3,7 +3,7 @@ import { Div, Button } from "../Styled/CommonStyled";
 import { Link } from "react-router-dom";
 import { Input, Label } from "../Styled/LoginStyled";
 import { useDispatch, useSelector } from "react-redux";
-import { login } from "../Reducer/Login";
+import { login } from "../reducer/Login";
 
 const Login = () => {
   const users = useSelector((state) => state.userReducer.users);

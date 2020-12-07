@@ -2,7 +2,6 @@ const LOGIN = "LOGIN";
 const LOGOUT = "LOGOUT";
 
 export const login = (userId) => {
-  console.log("login! : ", userId);
   return {
     type: LOGIN,
     payload: {

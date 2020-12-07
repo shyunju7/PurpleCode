@@ -41,7 +41,6 @@ export default function userReducer(state = initState, { type, payload }) {
           userId: payload.userId,
           userPw: payload.userPw,
         }),
-        isLogin: false,
       };
     case MODIFY_USERPW:
       return {
@@ -56,8 +55,6 @@ export default function userReducer(state = initState, { type, payload }) {
       return {
         ...state,
         users: state.users.filter((user) => user.userId !== payload.userId),
-        isLogin: false,
-        loginUser: null,
       };
 
     default:

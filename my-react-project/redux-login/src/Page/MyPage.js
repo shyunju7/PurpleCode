@@ -2,7 +2,8 @@ import React from "react";
 import { Div, Button, Text } from "../Styled/CommonStyled";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { deleteUser } from "../Reducer/User";
+import { deleteUser } from "../reducer/User";
+import {logout} from "../reducer/Login";
 
 const MyPage = ({ history }) => {
   const users = useSelector((state) => state.userReducer.users);
@@ -14,7 +15,7 @@ const MyPage = ({ history }) => {
   const unsubscribe = () => {
     if (window.confirm("정말로 탈퇴하시겠습니까?")) {
       dispatch(deleteUser(userId));
-
+      dispatch(logout());
       alert("회원탈퇴 완료!");
       history.push("/");
     }

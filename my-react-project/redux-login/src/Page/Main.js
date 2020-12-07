@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Div, Button, Text } from "../Styled/CommonStyled";
 import { useSelector, useDispatch } from "react-redux";
-import { logout } from "../Reducer/Login";
+import { logout } from "../reducer/Login";
 
 const Main = () => {
   const userId = useSelector((state) => state.loginReducer.loginUser);

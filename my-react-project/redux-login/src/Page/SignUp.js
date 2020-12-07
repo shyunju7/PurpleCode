@@ -8,7 +8,7 @@ import {
   Button,
 } from "../Styled/SignUpStyled";
 import { useDispatch, useSelector } from "react-redux";
-import {registerUser} from "../Reducer/User";
+import {registerUser} from "../reducer/User";
 
 const SignUp = ({ history }) => {
   const [userId, setUserId] = useState("");
