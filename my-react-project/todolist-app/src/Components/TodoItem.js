@@ -19,7 +19,6 @@ const TodoItem = ({ todo }) => {
   const onChangeText = useCallback(
     (e) => {
       const { value } = e.target;
-
       setUpdateText(value);
     },
     [updateText]
@@ -28,7 +27,6 @@ const TodoItem = ({ todo }) => {
   const updateTodo = () => {
     if (!isCompleted) {
       setReadOnly(false);
-      console.log(readOnly);
     }
   };
 

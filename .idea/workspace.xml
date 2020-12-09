@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="modify /TodoList">
+    <list default="true" id="bf507a83-4870-40b6-894c-7e038230a14c" name="Default Changelist" comment="add /Todolist/updateTodo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Components/TodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-react-project/todolist-app/src/Reducer/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-react-project/todolist-app/src/Reducer/Todo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606747723470</updated>
       <workItem from="1606747726600" duration="49592000" />
-      <workItem from="1607329478232" duration="9100000" />
+      <workItem from="1607329478232" duration="10209000" />
     </task>
     <task id="LOCAL-00001" summary="add my-react-project">
       <created>1606747796634</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607360911189</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add /Todolist/updateTodo">
+      <created>1607529563530</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607529563530</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +235,8 @@
     <MESSAGE value="modify /todolist/TodoItem" />
     <MESSAGE value="modify /redux-login" />
     <MESSAGE value="modify /TodoList" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify /TodoList" />
+    <MESSAGE value="add /Todolist/updateTodo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add /Todolist/updateTodo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="1080" height="526" key="DiffContextDialog" timestamp="1606748822525">
@@ -256,10 +263,10 @@
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="149" y="25" key="SettingsEditor/0.23.1280.726@0.23.1280.726" timestamp="1607250761970" />
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607360928403">
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2" timestamp="1607529573854">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
-    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607360928403" />
+    <state x="240" y="126" key="Vcs.Push.Dialog.v2/0.23.1280.726@0.23.1280.726" timestamp="1607529573854" />
     <state x="453" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607330670675">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
