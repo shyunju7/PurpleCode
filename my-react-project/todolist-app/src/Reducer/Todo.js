@@ -50,7 +50,7 @@ export default function todoReducer(state = initState, { type, payload }) {
         todos: state.todos.concat({
           id: payload.id,
           text: payload.text,
-          inCompleted: false,
+          isCompleted: false,
         }),
       };
     case TODO_REMOVE:

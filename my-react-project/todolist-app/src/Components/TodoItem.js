@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback, useState } from "react";
 import {
   Button,
   CheckBox,
@@ -12,7 +12,25 @@ import { TiDeleteOutline } from "react-icons/ti";
 import { BiPencil } from "react-icons/bi";
 const TodoItem = ({ todo }) => {
   const { id, text, isCompleted } = todo;
+  const [readOnly, setReadOnly] = useState(true);
+  const [updateText, setUpdateText] = useState(text);
   const dispatch = useDispatch();
+
+  const onChangeText = useCallback(
+    (e) => {
+      const { value } = e.target;
+
+      setUpdateText(value);
+    },
+    [updateText]
+  );
+
+  const updateTodo = () => {
+    if (!isCompleted) {
+      setReadOnly(false);
+      console.log(readOnly);
+    }
+  };
 
   return (
     <TodoItemBox>
@@ -23,10 +41,22 @@ const TodoItem = ({ todo }) => {
           <FaRegSquare size="25px" />
         )}
       </CheckBox>
-      <TextBox id="text" readOnly={true} value={text} checked={isCompleted} />
-      <Button>
-        <BiPencil size="25px" color="#a5a58d" />
-      </Button>
+      <TextBox
+        name="text"
+        readOnly={readOnly}
+        defaultValue={text}
+        checked={isCompleted}
+        onChange={onChangeText}
+        onBlur={() => dispatch(todoUpdate(id, updateText))}
+      />
+
+      {!isCompleted ? (
+        <Button onClick={updateTodo}>
+          <BiPencil size="25px" color="#a5a58d" />
+        </Button>
+      ) : (
+        <></>
+      )}
 
       <Button onClick={() => dispatch(todoRemove(id))}>
         <TiDeleteOutline size="30px" color="#e56b6f" />
