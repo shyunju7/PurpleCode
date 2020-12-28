@@ -1,9 +1,11 @@
 import "./App.css";
 import React from "react";
-import CounterContainer from "./react12/Redux/Component/CounterContainer";
+import LocalStorageComponent from "./react12/Storage/LocalStorage";
+
+
 
 function App() {
-  return <CounterContainer />;
+  return < LocalStorageComponent/>;
 }
 
 export default App;
