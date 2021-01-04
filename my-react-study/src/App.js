@@ -1,11 +1,9 @@
 import "./App.css";
 import React from "react";
-import LocalStorageComponent from "./react12/Storage/LocalStorage";
-
-
+import Main from "./react01/Main";
 
 function App() {
-  return < LocalStorageComponent/>;
+  return <Main />
 }
 
 export default App;
